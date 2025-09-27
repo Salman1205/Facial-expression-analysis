@@ -69,6 +69,7 @@ Pipfile.lock
 __pypackages__/
 
 # Celery stuff
+temp_auto_push.bat
 celerybeat-schedule
 celerybeat.pid
 
@@ -103,7 +104,6 @@ dmypy.json
 .pyre/
 
 # IDE
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -142,3 +142,6 @@ logs/*.log
 # Temporary files
 *.tmp
 *.temp
+.gitignore
+temp_interactive_push.bat
+branch_structure.json
